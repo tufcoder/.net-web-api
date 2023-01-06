@@ -9,6 +9,8 @@ dotnet --list-sdks
 dotnet new webapi -f net6.0
 ```
 
+List of files:
+
 ```bash
 -| Controllers
 -| obj
@@ -28,7 +30,7 @@ dotnet new webapi -f net6.0
 * POST
   * 201: Created At Action
   * 400: Bad Request
-* PUT / PATCH
+* PUT
   * 204: No Content
   * 400: Bad Request
 * DELETE
