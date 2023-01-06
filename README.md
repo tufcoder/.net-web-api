@@ -1,4 +1,4 @@
-# Create as web API project
+# Create a web API project
 
 https://learn.microsoft.com/en-us/training/modules/build-web-api-aspnet-core/3-exercise-create-web-api
 
