@@ -17,7 +17,7 @@ public static class PizzaService
 
   public static List<Pizza>? GetAll() => Pizzas;
 
-  public static Pizza Get(int id) => Pizzas.FirstOrDefault(pizza => pizza.Id == id);
+  public static Pizza? Get(int id) => Pizzas.FirstOrDefault(pizza => pizza.Id == id);
 
   public static void Add(Pizza pizza)
   {
@@ -29,7 +29,7 @@ public static class PizzaService
   {
     var pizza = Get(id);
 
-    if(pizza is null)
+    if (pizza is null)
       return;
 
     Pizzas.Remove(pizza);
